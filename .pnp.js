@@ -37,9 +37,11 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {
           "packageLocation": "./",
           "packageDependencies": [
+            ["@fransvilhelm/react-breadcrumbs", "virtual:c25d5b45a832ff00f7af825fe36720dd3b8cb35ddadaa251f92d3fb6b244e380dcb48d38d322d7e62853da10e376b069a39b9cd32674787be57be3e7a3c93d5d#npm:2.0.0"],
             ["@testing-library/jest-dom", "npm:5.14.1"],
             ["@testing-library/react", "virtual:c25d5b45a832ff00f7af825fe36720dd3b8cb35ddadaa251f92d3fb6b244e380dcb48d38d322d7e62853da10e376b069a39b9cd32674787be57be3e7a3c93d5d#npm:11.2.7"],
             ["@testing-library/user-event", "virtual:c25d5b45a832ff00f7af825fe36720dd3b8cb35ddadaa251f92d3fb6b244e380dcb48d38d322d7e62853da10e376b069a39b9cd32674787be57be3e7a3c93d5d#npm:12.8.3"],
+            ["lodash-es", "npm:4.17.21"],
             ["react", "npm:17.0.2"],
             ["react-dom", "virtual:c25d5b45a832ff00f7af825fe36720dd3b8cb35ddadaa251f92d3fb6b244e380dcb48d38d322d7e62853da10e376b069a39b9cd32674787be57be3e7a3c93d5d#npm:17.0.2"],
             ["react-scripts", "virtual:c25d5b45a832ff00f7af825fe36720dd3b8cb35ddadaa251f92d3fb6b244e380dcb48d38d322d7e62853da10e376b069a39b9cd32674787be57be3e7a3c93d5d#npm:4.0.3"],
@@ -4040,6 +4042,31 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["lodash", "npm:4.17.21"],
             ["minimatch", "npm:3.0.4"],
             ["strip-json-comments", "npm:3.1.1"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["@fransvilhelm/react-breadcrumbs", [
+        ["npm:2.0.0", {
+          "packageLocation": "./.yarn/cache/@fransvilhelm-react-breadcrumbs-npm-2.0.0-2648a04db0-6e4c6bf52a.zip/node_modules/@fransvilhelm/react-breadcrumbs/",
+          "packageDependencies": [
+            ["@fransvilhelm/react-breadcrumbs", "npm:2.0.0"]
+          ],
+          "linkType": "SOFT",
+        }],
+        ["virtual:c25d5b45a832ff00f7af825fe36720dd3b8cb35ddadaa251f92d3fb6b244e380dcb48d38d322d7e62853da10e376b069a39b9cd32674787be57be3e7a3c93d5d#npm:2.0.0", {
+          "packageLocation": "./.yarn/$$virtual/@fransvilhelm-react-breadcrumbs-virtual-d968ab5af5/0/cache/@fransvilhelm-react-breadcrumbs-npm-2.0.0-2648a04db0-6e4c6bf52a.zip/node_modules/@fransvilhelm/react-breadcrumbs/",
+          "packageDependencies": [
+            ["@fransvilhelm/react-breadcrumbs", "virtual:c25d5b45a832ff00f7af825fe36720dd3b8cb35ddadaa251f92d3fb6b244e380dcb48d38d322d7e62853da10e376b069a39b9cd32674787be57be3e7a3c93d5d#npm:2.0.0"],
+            ["@types/react", null],
+            ["invariant", "npm:2.2.4"],
+            ["lodash", "npm:4.17.21"],
+            ["nanoid", "npm:2.1.11"],
+            ["react", "npm:17.0.2"]
+          ],
+          "packagePeers": [
+            "@types/react",
+            "react"
           ],
           "linkType": "HARD",
         }]
@@ -11346,6 +11373,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD",
         }]
       ]],
+      ["invariant", [
+        ["npm:2.2.4", {
+          "packageLocation": "./.yarn/cache/invariant-npm-2.2.4-717fbdb119-96d8a2a4f0.zip/node_modules/invariant/",
+          "packageDependencies": [
+            ["invariant", "npm:2.2.4"],
+            ["loose-envify", "npm:1.4.0"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
       ["ip", [
         ["npm:1.1.5", {
           "packageLocation": "./.yarn/cache/ip-npm-1.1.5-af36318aa6-3ad007368c.zip/node_modules/ip/",
@@ -13007,6 +13044,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD",
         }]
       ]],
+      ["lodash-es", [
+        ["npm:4.17.21", {
+          "packageLocation": "./.yarn/cache/lodash-es-npm-4.17.21-b45832dfce-ff0e7bb959.zip/node_modules/lodash-es/",
+          "packageDependencies": [
+            ["lodash-es", "npm:4.17.21"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
       ["lodash._reinterpolate", [
         ["npm:3.0.0", {
           "packageLocation": "./.yarn/cache/lodash._reinterpolate-npm-3.0.0-3c62ca439e-27513557d6.zip/node_modules/lodash._reinterpolate/",
@@ -13659,6 +13705,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["nanoid", [
+        ["npm:2.1.11", {
+          "packageLocation": "./.yarn/cache/nanoid-npm-2.1.11-60ba7b48b5-41453e344e.zip/node_modules/nanoid/",
+          "packageDependencies": [
+            ["nanoid", "npm:2.1.11"]
+          ],
+          "linkType": "HARD",
+        }],
         ["npm:3.1.20", {
           "packageLocation": "./.yarn/cache/nanoid-npm-3.1.20-3b284e9eb5-4788d36edc.zip/node_modules/nanoid/",
           "packageDependencies": [
@@ -16085,9 +16138,11 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",
           "packageDependencies": [
             ["react-breadcrumbs-duplicated-crumbs-mwe", "workspace:."],
+            ["@fransvilhelm/react-breadcrumbs", "virtual:c25d5b45a832ff00f7af825fe36720dd3b8cb35ddadaa251f92d3fb6b244e380dcb48d38d322d7e62853da10e376b069a39b9cd32674787be57be3e7a3c93d5d#npm:2.0.0"],
             ["@testing-library/jest-dom", "npm:5.14.1"],
             ["@testing-library/react", "virtual:c25d5b45a832ff00f7af825fe36720dd3b8cb35ddadaa251f92d3fb6b244e380dcb48d38d322d7e62853da10e376b069a39b9cd32674787be57be3e7a3c93d5d#npm:11.2.7"],
             ["@testing-library/user-event", "virtual:c25d5b45a832ff00f7af825fe36720dd3b8cb35ddadaa251f92d3fb6b244e380dcb48d38d322d7e62853da10e376b069a39b9cd32674787be57be3e7a3c93d5d#npm:12.8.3"],
+            ["lodash-es", "npm:4.17.21"],
             ["react", "npm:17.0.2"],
             ["react-dom", "virtual:c25d5b45a832ff00f7af825fe36720dd3b8cb35ddadaa251f92d3fb6b244e380dcb48d38d322d7e62853da10e376b069a39b9cd32674787be57be3e7a3c93d5d#npm:17.0.2"],
             ["react-scripts", "virtual:c25d5b45a832ff00f7af825fe36720dd3b8cb35ddadaa251f92d3fb6b244e380dcb48d38d322d7e62853da10e376b069a39b9cd32674787be57be3e7a3c93d5d#npm:4.0.3"],
