@@ -5,8 +5,8 @@ export function BreadcrumbList() {
 
   return (
     <ul>
-      {breadcrumbs.map((crumb) => (
-        <li>
+      {breadcrumbs.map((crumb, index) => (
+        <li key={index}>
           <a href={crumb.url}>{crumb.label}</a>
         </li>
       ))}
